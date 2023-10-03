@@ -58,14 +58,16 @@ h1 {
 
 .team {
     display: inline-block;
+    margin: 0px 200px 50px 200px; 
 }
 
 .teamphotos {
     display: inline-block;
-    margin: 0px 200px 50px 200px; 
     color: white;
     text-align: center;
     font-size: 18px;
+    width: 75%;
+    margin: 50px 200px 100px 200px;
 }
 
 .test {
@@ -80,4 +82,5 @@ footer {
     color: white;
     display: inline-block;
     padding: 10px;
+    width: 99%;
 }
