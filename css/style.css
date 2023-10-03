@@ -1,6 +1,5 @@
 html {
     background-color: #222222;
-    background-image: url(../images/bar.png);
     background-repeat: no-repeat;
     background-size: 100% 32%;
 }
@@ -9,9 +8,7 @@ html {
 .topnav {
     background-color: none;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: inline-block;
   }
   
   /* Style the links inside the navigation bar */
@@ -47,9 +44,7 @@ h1 {
 }
 
 .story {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: inline-block;
     margin: 0px 200px 50px 200px;  
 }
 
@@ -62,17 +57,12 @@ h1 {
 }
 
 .team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: inline-block;
 }
 
 .teamphotos {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    display: inline-block;
+    margin: 0px 200px 50px 200px; 
     color: white;
     text-align: center;
     font-size: 18px;
@@ -88,9 +78,6 @@ h1 {
 footer {
     background-color: #946734;
     color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    display: inline-block;
     padding: 10px;
 }
