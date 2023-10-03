@@ -57,17 +57,24 @@ h1 {
 }
 
 .team {
-    display: inline-block;
+    display: inline;
     margin: 0px 200px 50px 200px; 
 }
 
 .teamphotos {
-    display: inline-block;
+    display: inline;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
     color: white;
     text-align: center;
     font-size: 18px;
-    width: 75%;
-    margin: 50px 200px 100px 200px;
+}
+
+.card {
+    display: inline;
+    margin: 5px;
+    margin-top: 5px;
 }
 
 .test {
